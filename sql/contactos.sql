@@ -1,11 +1,11 @@
 CREATE TABLE contactos (
-    email text PRIMARY KEY,
-    nombre text,
-    telefono text
+    email varchar(100) PRIMARY KEY,
+    nombre varchar(50),
+    telefono varchar(12)
 );
 
 INSERT INTO contactos (email, nombre, telefono)
-VALUES ("dejah@email.com", "Dejah Thoris", "111111111");
+VALUES ("juan@example.com", "Juan Pérez", "555-123-4567");
 
 INSERT INTO contactos (email, nombre, telefono)
-VALUES ("john@eamil.com", "John Carter", "22222222");
+VALUES ("maria@example.com", "María García", "555-678-9012");
